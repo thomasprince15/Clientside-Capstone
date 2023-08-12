@@ -1,0 +1,32 @@
+.chores {
+    display: flex;
+    flex-direction: column;
+}
+
+.chore {
+    background-color: aliceblue;
+    border: 1px dotted blue;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}
+
+.chore__delete {
+    margin-left: auto;
+    background-color: crimson;
+}
+
+.chore__finish {
+    margin-left: auto;
+}
+
+.chore__footer {
+    display: flex;
+    padding: 1rem 0 0 0;
+    border-top: 1px dashed darkmagenta;
+    margin: 1rem 0 0 0;
+}
+
+.chore__header {
+    font-size: large;
+    padding: 0 0 1rem 0;
+}
